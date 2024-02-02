@@ -1,0 +1,11 @@
+---
+title: Footer test
+---
+
+year: <?lua.year?>  
+
+version: <?quarto.version?>
+
+::: {style="background-color: red;"}
+This is div with style.
+:::

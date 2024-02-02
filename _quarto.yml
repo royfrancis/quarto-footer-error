@@ -1,0 +1,13 @@
+project:
+  type: website
+
+website:
+  page-footer:
+    left: "<?lua.year?> Brand"
+    right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
+
+format: html
+
+filters:
+  - custom.lua
+
